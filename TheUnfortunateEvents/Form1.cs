@@ -318,7 +318,6 @@ namespace TheUnfortunateEvents
                     break;
                 case 16:
                     outputLabel.Text = $"You slowly jump your way towards the broken glass. Once you get the glass in your hands, you use it to cute the ropes on your hands then feet, however you injure yourself in the process.";
-                    outputLabel.Text += $"\n";
                     outputLabel.Text += $"\n The fresh scent of your blood attracts the attention of the blood eating animals, but you don't think much of it until you hear a slithering sound folowed by a hiss. You whip around and find yourself face to face with a snake!";
                     outputLabel.Text += $"\n You slowly start to back up while franctically looking around to find anything you could use to protect yourself";
                     outputLabel.Text += $"\n You hear a crack and look down towards your feet and spot a tree branch next to your right foot.";
