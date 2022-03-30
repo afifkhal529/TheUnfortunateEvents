@@ -329,16 +329,19 @@ namespace TheUnfortunateEvents
                     option3Label.Text = $"";
                     break;
                 case 17:
-                    outputLabel.Text = $"";
-                    outputLabel.Text += $"";
-                    outputLabel.Text += $"";
+                    outputLabel.Text = $"You slowly jump towards the rock. But when you attempt to grab the rock, it doesn't budge. You try anyway you can to make it move but itd oesn't budge, not even a teeny bit.";
+                    outputLabel.Text += $"\n";
+                    outputLabel.Text += $"\n Your on the verge of giving up, so you try one final pull in hopes of the rock moving but instead of it moving, you hear a click then some rumbling.";
+                    outputLabel.Text += $"\n Turns out the rock was a booby trap! You look up to see a latch open and rocks falling straight at you.";
+                    outputLabel.Text += $"\n";
+                    outputLabel.Text += $"\n Play Again?";
 
-                    option1Label.Text = $"";
-                    option2Label.Text = $"";
+                    option1Label.Text = $"Yes";
+                    option2Label.Text = $"No";
                     option3Label.Text = $"";
                     break;
                 case 18:
-                    outputLabel.Text = $"You grab the stick and swiftly swing pass the snake, then you repeatedly smack the snake's back eventuua;;y causing it to die";
+                    outputLabel.Text = $"You grab the stick and swiftly swing pass the snake, then you repeatedly smack the snake's back eventually causing it to die";
                     outputLabel.Text += $"\n";
                     outputLabel.Text += $"\n You either flee the cave or remain in the cave";
 
@@ -347,48 +350,53 @@ namespace TheUnfortunateEvents
                     option3Label.Text = $"";
                     break;
                 case 19:
-                    outputLabel.Text = $"";
-                    outputLabel.Text += $"";
-                    outputLabel.Text += $"";
+                    outputLabel.Text = $"You attempt to slit the snake but fail. The snake gobbles you up.";
+                    outputLabel.Text += $"\n";
+                    outputLabel.Text += $"\n Play Again?";
 
-                    option1Label.Text = $"";
-                    option2Label.Text = $"";
+                    option1Label.Text = $"Yes";
+                    option2Label.Text = $"No";
                     option3Label.Text = $"";
                     break;
                 case 20:
-                    outputLabel.Text = $"";
-                    outputLabel.Text += $"";
-                    outputLabel.Text += $"";
-
-                    option1Label.Text = $"";
-                    option2Label.Text = $"";
+                    outputLabel.Text = $"You rush out of the cave in the desperate need to escape.";
+                    outputLabel.Text += $"\n";
+                    outputLabel.Text += $"You walk far out desperate to find a lake or pond. Then you hear the sound of water flowing. You follow the sound until you come to a river";
+                    outputLabel.Text += $"\n You spot land on the other side but you need a way to cross. You look around to find a bridge to cross but instead find a long, thick, log not too far from you which stretches across to the land.";
+                    outputLabel.Text += $"\n";
+                    outputLabel.Text += $"\n You can either attempt to swim through the river or walk across the log";
+                    
+                    option1Label.Text = $"Walk across log";
+                    option2Label.Text = $"Swim through river";
                     option3Label.Text = $"";
                     break;
                 case 21:
-                    outputLabel.Text = $"";
-                    outputLabel.Text += $"";
-                    outputLabel.Text += $"";
+                    outputLabel.Text = $"You die of loneliness and blood loss";
+                    outputLabel.Text += $"\n";
+                    outputLabel.Text += $"\n Play Again?";
 
-                    option1Label.Text = $"";
-                    option2Label.Text = $"";
+                    option1Label.Text = $"Yes";
+                    option2Label.Text = $"No";
                     option3Label.Text = $"";
                     break;
                 case 22:
-                    outputLabel.Text = $"";
-                    outputLabel.Text += $"";
-                    outputLabel.Text += $"";
+                    outputLabel.Text = $"You make it to the other side, where you are later found by police and taken home";
+                    outputLabel.Text += $"\n";
+                    outputLabel.Text += $"\n You have reached the end of the game.";
+                    outputLabel.Text += $"\n";
+                    outputLabel.Text += $"\n Play Again?";
 
                     option1Label.Text = $"";
                     option2Label.Text = $"";
                     option3Label.Text = $"";
                     break;
                 case 23:
-                    outputLabel.Text = $"";
-                    outputLabel.Text += $"";
-                    outputLabel.Text += $"";
+                    outputLabel.Text = $"The river current is too strong and drowns you";
+                    outputLabel.Text += $"\n";
+                    outputLabel.Text += $"\n Play Again?";
 
-                    option1Label.Text = $"";
-                    option2Label.Text = $"";
+                    option1Label.Text = $"Yes";
+                    option2Label.Text = $"No";
                     option3Label.Text = $"";
                     break;
                 case 24:
