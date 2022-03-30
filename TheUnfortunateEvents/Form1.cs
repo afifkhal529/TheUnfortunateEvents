@@ -195,14 +195,18 @@ namespace TheUnfortunateEvents
                 case 5:
                     outputLabel.Text = $"You rush across the street to aid the woman";
                     outputLabel.Text += $"Just as you start to fight the hooded man in order to get the woman's valuables back, he stops suddenly and you realize it was staged!";
-                    outputLabel.Text += $"You whirl around only to see the woman pointing a gun straight at you";
                     outputLabel.Text += $"\n";
-                    outputLabel.Text += $"\n BANG! she shhots and that is the last thing your remember before collapsing to the ground unconcsious";
+                    outputLabel.Text += $"\nYou whirl around only to see the woman pointing a gun straight at you";
+                    outputLabel.Text += $"\n";
+                    outputLabel.Text += $"\n BANG! she shoots and that is the last thing your remember before collapsing to the ground unconcsious";
                     Refresh();
                     Thread.Sleep(5000);
-                    outputLabel.Text = $"You wake up in a dark place with your head pounding hard. You attempt to move but you are unable to, you look down, only to see your hands and feet tied up. You look around and can't seem to recognize where you are.";
-                    option1Label.Text = $"";
-                    option2Label.Text = $"";
+                    outputLabel.Text = $"You wake up in a dark place with your head pounding hard. You attempt to move but you are unable to, you look down, only to see your hands and feet tied up. You look around and can't seem to recognize where you are. It's complete darkness and slinece everywhere, then you hear a whoosh followed by another whoosh and you realize that your in the trunk of a moving vehicle!";
+                    outputLabel.Text += $"\n";
+                    outputLabel.Text += $"\n You can either bang at the sides of the trunk or remain quiet";
+
+                    option1Label.Text = $"Bang at the sides of the trunk";
+                    option2Label.Text = $"Remain quiet";
                     option3Label.Text = $"";
                     break;
                 case 6:
@@ -264,12 +268,16 @@ namespace TheUnfortunateEvents
                     option3Label.Text = $"";
                     break;
                 case 12:
-                    outputLabel.Text = $"";
-                    outputLabel.Text += $"";
-                    outputLabel.Text += $"";
+                    outputLabel.Text = $"The vehicle increases it's speed and travels for a good 40 minutes before screeching to a halt. You hear the car doors open and footsteps coming your way. You then hear the trunk open and see two men standing before you.";
+                    outputLabel.Text += $"\n";
+                    outputLabel.Text += $"They lift you up on their shoulder and very roughly take you to the edge of a bridge and throw you over.";
+                    outputLabel.Text += $"\n";
+                    outputLabel.Text += $"\nYou fall to your death.";
+                    outputLabel.Text += $"\n";
+                    outputLabel.Text += $"\nPlay Again?";
 
-                    option1Label.Text = $"";
-                    option2Label.Text = $"";
+                    option1Label.Text = $"Yes";
+                    option2Label.Text = $"No";
                     option3Label.Text = $"";
                     break;
                 case 13:
@@ -291,21 +299,34 @@ namespace TheUnfortunateEvents
                     option3Label.Text = $"";
                     break;
                 case 15:
-                    outputLabel.Text = $"";
-                    outputLabel.Text += $"";
-                    outputLabel.Text += $"";
+                    outputLabel.Text = $"After two hours, the vehicle finally comes to a halt. The trunk opens and you see a group of four people, two women and two men.";
+                    outputLabel.Text += $"\n";
+                    outputLabel.Text += $"\nThe men put a sack over your head clocking your eyes from viewing your surroundings.";
+                    outputLabel.Text += $"\n";
+                    outputLabel.Text += $"\n After walking for 15 minutes, you are thrown in an unknown place. Your sack is taken off, making you able to see your surroundings";
+                    Refresh();
+                    Thread.Sleep(5000);
+                    outputLabel.Text = $"\n You have no idea where you are. Use your instincts to get out of here alive or face the consequences of the wrong decisions.";
+                    outputLabel.Text += $"\n You look around to find a sharp object to cut your hands and feet free.";
+                    outputLabel.Text += $"\nYou spot a sharp rock in the left corner of the cave and a piece of broken glass on the right croner of the cave.";
+                    outputLabel.Text += $"\n";
+                    outputLabel.Text += $"\n What do you choose?";
 
-                    option1Label.Text = $"";
-                    option2Label.Text = $"";
+                    option1Label.Text = $"Broken Glass";
+                    option2Label.Text = $"Sharp Rock";
                     option3Label.Text = $"";
                     break;
                 case 16:
-                    outputLabel.Text = $"";
-                    outputLabel.Text += $"";
-                    outputLabel.Text += $"";
+                    outputLabel.Text = $"You slowly jump your way towards the broken glass. Once you get the glass in your hands, you use it to cute the ropes on your hands then feet, however you injure yourself in the process.";
+                    outputLabel.Text += $"\n";
+                    outputLabel.Text += $"\n The fresh scent of your blood attracts the attention of the blood eating animals, but you don't think much of it until you hear a slithering sound folowed by a hiss. You whip around and find yourself face to face with a snake!";
+                    outputLabel.Text += $"\n You slowly start to back up while franctically looking around to find anything you could use to protect yourself";
+                    outputLabel.Text += $"\n You hear a crack and look down towards your feet and spot a tree branch next to your right foot.";
+                    outputLabel.Text += $"\n";
+                    outputLabel.Text += $"\n You can either use the stick or the galss piece to protect yourself. What do you choose?";
 
-                    option1Label.Text = $"";
-                    option2Label.Text = $"";
+                    option1Label.Text = $"Use Stick";
+                    option2Label.Text = $"Use Glass";
                     option3Label.Text = $"";
                     break;
                 case 17:
@@ -318,12 +339,12 @@ namespace TheUnfortunateEvents
                     option3Label.Text = $"";
                     break;
                 case 18:
-                    outputLabel.Text = $"";
-                    outputLabel.Text += $"";
-                    outputLabel.Text += $"";
+                    outputLabel.Text = $"You grab the stick and swiftly swing pass the snake, then you repeatedly smack the snake's back eventuua;;y causing it to die";
+                    outputLabel.Text += $"\n";
+                    outputLabel.Text += $"\n You either flee the cave or remain in the cave";
 
-                    option1Label.Text = $"";
-                    option2Label.Text = $"";
+                    option1Label.Text = $"Flee cave";
+                    option2Label.Text = $"Remain in cave";
                     option3Label.Text = $"";
                     break;
                 case 19:
