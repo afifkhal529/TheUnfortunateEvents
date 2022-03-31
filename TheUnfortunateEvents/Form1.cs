@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System;
 using System.Windows.Forms;
 using System.Threading;
+using System.Media;
 
 namespace TheUnfortunateEvents
 {
@@ -159,6 +160,10 @@ namespace TheUnfortunateEvents
                     option1Label.Text = $"Call a taxi";
                     option2Label.Text = $"Ask someone for a lift";
                     option3Label.Text = $"Walk";
+                    
+                    imageBox.Image = Properties.Resources.;
+                    SoundPlayer player = new SoundPlayer(Properties.Resources.);
+                    player.Play();
                     break;
                 case 2:
                     outputLabel.Text = $"You call a taxi to get home safe and sound. You continuously glance at your phione during the taxi ride, just to make sure that the driver does not take a wrong turn";
@@ -208,6 +213,7 @@ namespace TheUnfortunateEvents
                     option1Label.Text = $"Bang at the sides of the trunk";
                     option2Label.Text = $"Remain quiet";
                     option3Label.Text = $"";
+                   
                     break;
                 case 6:
                     outputLabel.Text = $"You wave down the first car you see and ask for a lift. After riding for awhile, they start to slow down. You start to realize that your about to be abducted.";
