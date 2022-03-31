@@ -62,6 +62,10 @@ namespace TheUnfortunateEvents
                     page = 10;
                 }
             }
+            else if (page == 8)
+            {
+                page = 25;
+            }
             else if (page == 9)
             {
                 page = 1;
@@ -109,6 +113,10 @@ namespace TheUnfortunateEvents
             else if (page == 24)
             {
                 page = 25;
+            }
+            else if (page == 25)
+            {
+                page = 1;
             }
 
 
