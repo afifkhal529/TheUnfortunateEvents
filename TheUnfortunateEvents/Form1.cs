@@ -315,8 +315,8 @@ namespace TheUnfortunateEvents
                     outputLabel.Text += $"\n";
                     outputLabel.Text += $"\n Play Again?";
 
-                    option1Label.Text = $"";
-                    option2Label.Text = $"";
+                    option1Label.Text = $"Yes";
+                    option2Label.Text = $"No";
                     option3Label.Text = $"";
                     break;
                 case 9:
