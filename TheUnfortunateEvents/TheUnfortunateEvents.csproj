@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,9 +76,58 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\snakegooble.webp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sunset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sunset.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sun down.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark alley.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark street.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Car inside.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cave.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\River.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trunk.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snakegobbleup.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dead-man-on-white-2A4T84G.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forest.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\river current.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car speed.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
