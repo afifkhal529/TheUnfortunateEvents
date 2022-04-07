@@ -62,6 +62,10 @@ namespace TheUnfortunateEvents
                     page = 10;
                 }
             }
+            else if (page == 7)
+            {
+                page = 1;
+            }
             else if (page == 8)
             {
                 page = 25;
@@ -80,7 +84,7 @@ namespace TheUnfortunateEvents
             }
             else if (page == 13)
             {
-                page = 24;
+                page = 25;
             }
             else if (page == 5)
             {
@@ -88,7 +92,11 @@ namespace TheUnfortunateEvents
             }
             else if (page == 12)
             {
-                page = 24;
+                page = 25;
+            }
+            else if (page == 14)
+            {
+                page = 25;
             }
             else if (page == 15)
             {
@@ -98,19 +106,35 @@ namespace TheUnfortunateEvents
             {
                 page = 18;
             }
+            else if (page == 17)
+            {
+                page = 25;
+            }
             else if (page == 18)
             {
                 page = 20;
+            }
+            else if (page == 19)
+            {
+                page = 25;
             }
             else if (page == 20)
             {
                 page = 22;
             }
+            else if (page == 21)
+            {
+                page = 25;
+            }
             else if (page == 22)
             {
-                page = 1;
+                page = 25;
             }
             else if (page == 24)
+            {
+                page = 25;
+            }
+            else if (page == 23)
             {
                 page = 25;
             }
@@ -144,7 +168,7 @@ namespace TheUnfortunateEvents
             {
                 page = 7;
             }
-            else if (page ==7)
+            else if (page == 7)
             {
                 page = 24;
             }
@@ -160,9 +184,13 @@ namespace TheUnfortunateEvents
             {
                 page = 14;
             }
+            else if (page == 12)
+            {
+                page = 24;
+            }
             else if (page == 14)
             {
-                page = 1;
+                page = 24;
             }
             else if (page == 5)
             {
@@ -196,6 +224,14 @@ namespace TheUnfortunateEvents
             {
                 page = 23;
             }
+            else if (page == 21)
+            {
+                page = 24;
+            }
+            else if (page == 22)
+            {
+                page = 24;
+            }
             else if (page == 23)
             {
                 page = 24;
@@ -204,7 +240,10 @@ namespace TheUnfortunateEvents
             {
                 page = 25;
             }
-
+            else if (page == 25)
+            {
+                page = 1;
+            }
             DisplayPage();
 
         }
@@ -241,7 +280,7 @@ namespace TheUnfortunateEvents
                 case 2:
                     outputLabel.Text = $"You call a taxi to get home safe and sound. You continuously glance at your phone during the taxi ride, just to make sure that the driver does not take a wrong turn";
                     outputLabel.Text += $"\n";
-                    outputLabel.Text += $"\n THUD! The car violently jerked. You and the driver are alarmed at the sudden incident. The alarmned driver steps out of the car to inspect the cause. After 5 minutes the driver steps back inside the car and informs you that the car hit a pothole, which caused the front right tire to puncture.";
+                    outputLabel.Text += $"\n THUD! The car violently jerked. You and the driver are alarmed at the sudden incident. The alarmed driver steps out of the car to inspect the cause. After 5 minutes the driver steps back inside the car and informs you that the car hit a pothole, which caused the front right tire to puncture.";
                     //Refresh();
                     //Thread.Sleep(5000);
                     outputLabel.Text += $"\n You can either wait for a mechanic to come fix the car or walk to your home all by yourself";
@@ -277,15 +316,17 @@ namespace TheUnfortunateEvents
                     break;
                 case 5:
                     outputLabel.Text = $"You rush across the street to aid the woman";
-                    outputLabel.Text += $"Just as you start to fight the hooded man in order to get the woman's valuables back, he stops suddenly and you realize it was staged!";
+                    outputLabel.Text += $". Just as you start to fight the hooded man in order to get the woman's valuables back, he stops suddenly and you realize it was staged!";
                     outputLabel.Text += $"\n";
                     outputLabel.Text += $"\n You whirl around only to see the woman pointing a gun straight at you";
                     outputLabel.Text += $"\n";
                     outputLabel.Text += $"\n BANG! she shoots and that is the last thing you remember before collapsing to the ground unconcsious";
+
                     pictureBox1.Image = Properties.Resources.sun_down;
                     Refresh();
-                    Thread.Sleep(5000);
-                    outputLabel.Text = $" You wake up in a dark place with your head pounding hard. You attempt to move but are unable to, you look down, only to see your hands and feet tied up. You look around and can't seem to recognize where you are. It's complete darkness and slinece everywhere, then you hear a whoosh followed by another whoosh and you realize that your in the trunk of a moving vehicle!";
+                    Thread.Sleep(11000);
+
+                    outputLabel.Text = $" You wake up in a dark place with your head pounding hard. You attempt to move but are unable to, you look down, only to see your hands and feet tied up. You look around and can't seem to recognize where you are. It's complete darkness and silence everywhere, then you hear a whoosh followed by another whoosh and you realize that your in the trunk of a moving vehicle!";
                     outputLabel.Text += $"\n";
                     outputLabel.Text += $"\n You can either bang at the sides of the trunk or remain quiet";
 
@@ -397,11 +438,11 @@ namespace TheUnfortunateEvents
                 case 15:
                     outputLabel.Text = $"After two hours, the vehicle finally comes to a halt. The trunk opens and you see a group of four people, two women and two men.";
                     outputLabel.Text += $"\n";
-                    outputLabel.Text += $"\n The men put a sack over your head clocking your eyes from viewing your surroundings.";
+                    outputLabel.Text += $"\n The men put a sack over your head blocking your eyes from viewing your surroundings.";
                     outputLabel.Text += $"\n";
                     outputLabel.Text += $"\n After walking for 15 minutes, you are thrown in an unknown place. Your sack is taken off, making you able to see your surroundings";
                     Refresh();
-                    Thread.Sleep(5000);
+                    Thread.Sleep(11000);
                     outputLabel.Text = $"\n You have no idea where you are. Use your instincts to get out of here alive or face the consequences of the wrong decisions.";
                     outputLabel.Text += $"\n You look around to find a sharp object to cut your hands and feet free.";
                     outputLabel.Text += $"\n You spot a sharp rock in the left corner of the cave and a piece of broken glass on the right croner of the cave.";
@@ -415,12 +456,16 @@ namespace TheUnfortunateEvents
                     pictureBox1.Image = Properties.Resources.Cave;
                     break;
                 case 16:
-                    outputLabel.Text = $"You slowly jump your way towards the broken glass. Once you get the glass in your hands, you use it to cute the ropes on your hands then feet, however you injure yourself in the process.";
+                    outputLabel.Text = $"You slowly jump your way towards the broken glass. Once you get the glass in your hands, you use it to cut the ropes on your hands then feet, however you injure yourself in the process.";
                     outputLabel.Text += $"\n The fresh scent of your blood attracts the attention of the blood eating animals, but you don't think much of it until you hear a slithering sound folowed by a hiss. You whip around and find yourself face to face with a snake!";
                     outputLabel.Text += $"\n You slowly start to back up while franctically looking around to find anything you could use to protect yourself";
-                    outputLabel.Text += $"\n You hear a crack and look down towards your feet and spot a tree branch next to your right foot.";
                     outputLabel.Text += $"\n";
-                    outputLabel.Text += $"\n You can either use the stick or the glass piece to protect yourself. What do you choose?";
+                    outputLabel.Text += $"\n You hear a crack and look down towards your feet and spot a tree branch next to your right foot.";
+                    
+                    Refresh();
+                    Thread.Sleep(11000);
+                    
+                    outputLabel.Text = $" You can either use the stick or the glass piece to protect yourself. What do you choose?";
 
                     option1Label.Text = $"Use Stick";
                     option2Label.Text = $"Use Glass";
@@ -433,13 +478,16 @@ namespace TheUnfortunateEvents
                     outputLabel.Text += $"\n";
                     outputLabel.Text += $"\n Your on the verge of giving up, so you try one final pull in hopes of the rock moving but instead of it moving, you hear a click folowed by rumbling.";
                     outputLabel.Text += $"\n Turns out the rock was a booby trap! You look up to see a latch open and rocks falling straight at you.";
-                    outputLabel.Text += $"\n";
                     outputLabel.Text += $"\n Play Again?";
+
+                    option1Label.Text = $"Yes";
+                    option2Label.Text = $"No";
+                    option3Label.Text = $"";
 
                     pictureBox1.Image = Properties.Resources.Cave;
                     break;
                 case 18:
-                    outputLabel.Text = $"You grab the stick and swiftly swing pass the snake, then you repeatedly smack the snake's back eventuallyy causing it to die";
+                    outputLabel.Text = $"You grab the stick and swiftly swing pass the snake, then you repeatedly smack the snake's back eventually causing it to die";
                     outputLabel.Text += $"\n";
                     outputLabel.Text += $"\n You can either flee the cave or remain in the cave";
 
@@ -470,6 +518,7 @@ namespace TheUnfortunateEvents
                     option1Label.Text = $"Walk across log";
                     option2Label.Text = $"Swim through river";
                     option3Label.Text = $"";
+
                     pictureBox1.Image = Properties.Resources.River;
                     break;
                 case 21:
